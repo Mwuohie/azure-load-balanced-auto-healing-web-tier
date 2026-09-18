@@ -73,4 +73,4 @@ output publicIpId string = publicIp.id
 output backendPoolId string = loadBalancer.properties.backendAddressPools[0].id
 output frontendIpId string = loadBalancer.properties.frontendIPConfigurations[0].id
 output healthProbeId string = loadBalancer.properties.probes[0].id
-
+output publicIpAddress string = publicIp.properties.ipAddress
